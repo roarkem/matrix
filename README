@@ -1,0 +1,29 @@
+PROJECT CHARTER
+
+The goal of the matrix project is to create a very simple
+matrix math library in C. Initially floating point math will be
+used, however fixed point will eventually be supported.
+
+This library should be easy to use, and error tolerant.
+
+Intended Users of this library are engineers operating
+in a resource constrained environment.
+
+
+
+REQUIREMENTS
+
+1. Provide a matrix structure.
+2. Provide an initialized function.
+3. Provide a function which creates an identity matrix.
+4. Provide a function which creates a zeros matrix.
+5. Provide a function which adds two matrices.
+6. Provide a function which subtracts two matrices.
+7. Provide a function which multiplies (matrix multiply)
+8. Provide a function which subtracts two matrices.
+9. Halt and print a detailed error message when matrix or mathematical rules are violated.
+
+
+TESTING
+All functions and features shall be validated and verified.
+
